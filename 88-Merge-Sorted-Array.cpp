@@ -13,7 +13,6 @@ public:
                 j--;
             }
             else if(nums2[j]<nums1[i]){
-                std::cout<<"in";
                 nums1[k]=nums1[i];
                 k--;
                 i--;
@@ -86,7 +85,6 @@ public:
         //     i++;
         // } while (!nums2.empty());
 
-        // Optional: Adjust nums1 size to prevent extra elements caused by insertion
         //nums1.resize(m + n);
 
         // for ( int i=0 ; i<m+n ; i++ ){
