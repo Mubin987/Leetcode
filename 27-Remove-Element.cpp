@@ -12,7 +12,8 @@ public:
             }
         }
         for(int j=0;j<i;j++)
-			nums.push_back(val);	
+			nums.push_back(val);
+            
         return nums.size()-i;
 }
 };
